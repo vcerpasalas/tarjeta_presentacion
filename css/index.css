@@ -17,8 +17,8 @@
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  max-width: 28.5rem;
-  padding: 1rem 2rem;
+  max-width: 22.5rem;
+  padding: 1.2rem 1rem;
   border-radius: 1rem;
 }
 
@@ -58,7 +58,7 @@
 }
 
 .article__presentation {
-  font-size: 0.85rem;
+  font-size: 0.75rem;
 }
 
 
@@ -91,7 +91,7 @@
   text-decoration: none;
   font-weight: bold;
   font-size: 0.8rem;
-  padding: 8px 12px;
+  padding: 6px 8px;
   border-radius: 0.5rem;
   transition: all 0.5s linear;
   transition-delay: 0.1s;
