@@ -1,0 +1,166 @@
+.body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://c1.wallpaperflare.com/preview/31/27/802/paint-background-abstract-art.jpg);
+  background-size: cover;
+  background-position: center;
+  color: rgb(230, 230, 230);
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.main {
+  background-color: rgba(43, 43, 43, 0.75);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 28.5rem;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+}
+
+.header {
+  display: flex;
+}
+
+.header__professional-image-container {
+  display: flex;
+  max-width: 280px;
+  margin: 0 auto;
+}
+
+.header__professional-image {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.article__title,
+.article__keywords,
+.article__presentation,
+.skills__title {
+  font-weight: normal;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+.article__title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.article__presentation {
+  font-size: 0.85rem;
+}
+
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.skills__title::before {
+  content: '🖍 ';
+}
+
+.skills__title::after {
+  content: ' 🖍';
+}
+
+.skills__skills-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.skills__skill {
+  background-color: #c9673a;
+  color: initial;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.8rem;
+  padding: 8px 12px;
+  border-radius: 0.5rem;
+  transition: all 0.5s linear;
+  transition-delay: 0.1s;
+}
+
+.skills__skill:hover {
+  background-color: #248091;
+  box-shadow: 0 0 0.5rem 0.1rem #d1d1d1;
+  color: white;
+  font-weight: bold;
+  transform: scale(1.25);
+}
+
+
+.languages {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.languages__skills-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.languages__skill {
+  background-color: #c9673a;
+  color: initial;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.8rem;
+  padding: 8px 12px;
+  border-radius: 0.5rem;
+  transition: all 0.5s linear;
+  transition-delay: 0.1s;
+}
+
+.languages__skill:hover {
+  background-color: #fd8787;
+  box-shadow: 0 0 0.5rem 0.1rem #d1d1d1;
+  color: white;
+  font-weight: bold;
+  transform: scale(1.25);
+}
+
+
+.footer {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.footer__link-icon-container {
+  display: flex;
+  transition: all 0.5s;
+  max-width: 2rem;
+}
+
+.footer__link-icon-container:hover {
+  transform: scale(1.25);
+}
+
+.footer__link-icon {
+  width: 100%;
+}
+
+
+
