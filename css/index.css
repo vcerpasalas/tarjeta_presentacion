@@ -155,6 +155,7 @@
 }
 
 .footer__link-icon-container:hover {
+  filter: brightness(150%);
   transform: scale(1.25);
 }
 
